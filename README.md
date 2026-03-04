@@ -16,24 +16,24 @@ A Telegram bot that provides real-time XAUUSD (Gold) price updates via WebSocket
 ## Screenshots
 
 ### Main Menu
-![Main Menu](screenshots/main-menu.png)
-The bot's main interface showing the welcome message and interactive menu buttons for quick access to all features.
+![Main Menu](screenshots/main-menu.png)  
+*The bot's main interface showing the welcome message and interactive menu buttons for quick access to all features.*
 
 ### Enhanced Price Display
-![Enhanced Price Display](screenshots/enhanced-price-display.png)
-Detailed real-time gold price information including Last, Bid, Ask, Spread, 24h High/Low, Change percentage, and timestamp.
+![Enhanced Price Display](screenshots/enhanced-price-display.png)  
+*Detailed real-time gold price information including Last, Bid, Ask, Spread, 24h High/Low, Change percentage, and timestamp.*
 
 ### Price Alerts Menu
-![Price Alerts Menu](screenshots/alerts-menu.png)
-The alerts submenu allowing users to view, add, and delete price alerts with an intuitive interface.
+![Price Alerts Menu](screenshots/alerts-menu.png)  
+*The alerts submenu allowing users to view, add, and delete price alerts with an intuitive interface.*
 
 ### Settings Menu
-![Settings Menu](screenshots/settings-menu.png)
-Settings interface showing current status (Active/Inactive) and update frequency, with options to customize frequency and view status.
+![Settings Menu](screenshots/settings-menu.png)  
+*Settings interface showing current status (Active/Inactive) and update frequency, with options to customize frequency and view status.*
 
 ### Alert Trigger
-![Alert Trigger](screenshots/alert-trigger.png)
-Example of an alert being triggered when the price reaches the specified threshold, with confirmation message and updated price display.
+![Alert Trigger](screenshots/alert-trigger.png)  
+*Example of an alert being triggered when the price reaches the specified threshold, with confirmation message and updated price display.*
 
 ## Prerequisites
 
