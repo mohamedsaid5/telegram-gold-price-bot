@@ -9,6 +9,31 @@ A Telegram bot that provides real-time XAUUSD (Gold) price updates via WebSocket
 - 🔁 Automatic WebSocket reconnection
 - ⚙️ Configurable update frequency
 - 🛡️ Error handling and connection management
+- 🔔 Price alerts with automatic notifications
+- 📊 Enhanced price display with bid/ask, spread, and 24h statistics
+- 🎛️ Expandable menu system with submenus
+
+## Screenshots
+
+### Main Menu
+![Main Menu](screenshots/main-menu.png)
+The bot's main interface showing the welcome message and interactive menu buttons for quick access to all features.
+
+### Enhanced Price Display
+![Enhanced Price Display](screenshots/enhanced-price-display.png)
+Detailed real-time gold price information including Last, Bid, Ask, Spread, 24h High/Low, Change percentage, and timestamp.
+
+### Price Alerts Menu
+![Price Alerts Menu](screenshots/alerts-menu.png)
+The alerts submenu allowing users to view, add, and delete price alerts with an intuitive interface.
+
+### Settings Menu
+![Settings Menu](screenshots/settings-menu.png)
+Settings interface showing current status (Active/Inactive) and update frequency, with options to customize frequency and view status.
+
+### Alert Trigger
+![Alert Trigger](screenshots/alert-trigger.png)
+Example of an alert being triggered when the price reaches the specified threshold, with confirmation message and updated price display.
 
 ## Prerequisites
 
@@ -20,7 +45,7 @@ A Telegram bot that provides real-time XAUUSD (Gold) price updates via WebSocket
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/telegram-gold-price-bot.git
+git clone https://github.com/mohamedsaid5/telegram-gold-price-bot.git
 cd telegram-gold-price-bot
 ```
 
@@ -69,7 +94,13 @@ telegram-gold-price-bot/
 ├── config.json.example          # Configuration template
 ├── requirements.txt             # Python dependencies
 ├── README.md                    # This file
-└── .gitignore                   # Git ignore rules
+├── .gitignore                   # Git ignore rules
+└── screenshots/                 # Screenshot images
+    ├── main-menu.png
+    ├── enhanced-price-display.png
+    ├── alerts-menu.png
+    ├── settings-menu.png
+    └── alert-trigger.png
 ```
 
 ## Dependencies
