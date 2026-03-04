@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Config files with sensitive data
+config.json
